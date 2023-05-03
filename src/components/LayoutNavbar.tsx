@@ -1,4 +1,5 @@
 import { BellIcon } from "@heroicons/react/24/outline";
+
 function LayoutNavbar() {
   return (
     <div className="fixed top-1 flex w-full p-3">
@@ -11,7 +12,7 @@ function LayoutNavbar() {
       <div className="ml-auto flex items-center space-x-2">
         <BellIcon className="h-6 w-6 cursor-pointer text-gray-700" />
 
-        <div className="h-9 w-9 cursor-pointer rounded-full border border-orange-300">
+        <div className="h-9 w-9 cursor-pointer rounded-full border border-primary">
           <img
             className="rounded-full"
             src="profile.jpg"
