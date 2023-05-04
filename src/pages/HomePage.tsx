@@ -6,14 +6,14 @@ function HomePage() {
   return (
     <div className="py-5">
       <div className="mb-7">
-        <div className="mb-5 text-2xl font-semibold tracking-wide text-gray-800">
+        <div className="mb-5 text-2xl font-semibold tracking-wide text-secondary">
           Hello, {USER_NAME}
         </div>
         <WidgetCourse {...WIDGET_COURSE} />
       </div>
 
       <div className="mb-7">
-        <div className="mb-5 text-2xl font-semibold tracking-wide text-gray-800">
+        <div className="mb-5 text-2xl font-semibold tracking-wide text-secondary">
           Upcoming classes
         </div>
         <SliderLesson lessons={WIDGETS_LESSON} />
