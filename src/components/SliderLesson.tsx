@@ -7,7 +7,7 @@ interface SliderLessonProps {
 
 function SliderLesson({ lessons }: SliderLessonProps) {
   return (
-    <div className="-mx-3 snap-x space-x-3 overflow-auto whitespace-nowrap px-3">
+    <div className="-mx-2 snap-x space-x-3 overflow-auto whitespace-nowrap px-2">
       {lessons.map((lesson, index) => (
         <WidgetLesson {...lesson} key={index} />
       ))}

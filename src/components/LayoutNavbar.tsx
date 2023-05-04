@@ -2,7 +2,7 @@ import { BellIcon } from "@heroicons/react/24/outline";
 
 function LayoutNavbar() {
   return (
-    <div className="fixed top-1 flex w-full p-3">
+    <div className="flex w-full bg-gray-100 p-3">
       <div className="cursor-pointer space-y-1 rounded-md px-1 py-2">
         <hr className="w-6 border-t-2 border-t-gray-700" />
         <hr className="w-5 border-t-2 border-t-gray-700" />
